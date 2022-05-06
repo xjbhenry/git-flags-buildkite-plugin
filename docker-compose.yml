@@ -1,0 +1,6 @@
+services:
+  lint:
+    image: buildkite/plugin-linter
+    command: ['--id', 'Hivebrite/git-clone-buildkite-plugin']
+    volumes:
+      - ".:/plugin:ro"
