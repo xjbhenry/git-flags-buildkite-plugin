@@ -1,1 +1,11 @@
-
+name: Git clone
+description: Sets git-clone and git-fetch flags to perform the clone you want
+author: https://github.com/Hivebrite
+requirements: ['git']
+configuration:
+  properties:
+    clone_flags:
+      type: string
+    fetch_falgs:
+      type: string
+  additionalProperties: false
