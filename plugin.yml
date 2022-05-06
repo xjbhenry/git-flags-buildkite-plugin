@@ -1,5 +1,5 @@
-name: Git clone
-description: Sets git-clone and git-fetch flags to perform the clone you want
+name: Git flags
+description: Sets git-clone and git-fetch flags
 author: https://github.com/Hivebrite
 requirements: ['git']
 configuration:
