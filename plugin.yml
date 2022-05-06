@@ -8,4 +8,4 @@ configuration:
       type: string
     fetch_falgs:
       type: string
-  additionalProperties: false
+  required: []
