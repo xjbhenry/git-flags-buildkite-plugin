@@ -1,0 +1,11 @@
+name: Git flags
+description: Sets git-clone and git-fetch flags
+author: https://github.com/Hivebrite
+requirements: ['git']
+configuration:
+  properties:
+    clone_flags:
+      type: string
+    fetch_falgs:
+      type: string
+  additionalProperties: false
