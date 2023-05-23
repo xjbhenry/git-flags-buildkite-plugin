@@ -4,8 +4,8 @@ author: https://github.com/Hivebrite
 requirements: ['git']
 configuration:
   properties:
-    clone_flags:
+    clone:
       type: string
-    fetch_falgs:
+    fetch:
       type: string
   required: []
